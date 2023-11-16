@@ -151,15 +151,19 @@ h1{
 .value:hover{
     background-color: #cecece;
     cursor: pointer;
-    color: #000;
+    color: #000 !important;
 }
 .active {
     background-color: #833AE0;
-    color: white;
+    color: white !important;
     font-weight: 400;
 }
 .content{
     color: #C6C6C6 !important;
+}
+.activepel{
+    color: #C6C6C6;
+    font-size: 15px;
 }
 @media screen and (max-width: 568px) {
   .cons {
@@ -188,4 +192,5 @@ h1{
  display: none;
  
 }
+
 }

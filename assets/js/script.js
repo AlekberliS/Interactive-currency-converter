@@ -131,4 +131,20 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   setDefaultActiveOptions();
+
+  function activeButtons() {
+    const rub1p = document.querySelector('.ru1');
+    const usd2p = document.querySelector('.us2');
+    
+    rub1p.classList.add('activepel');
+    usd2p.classList.add('activepel');
+  
+   
+    getExchangeRate(selectedFromCurrency, selectedToCurrency, 0, [amountInputs[0],amountInputs[1]]);
+  }
+  
+
+  
+    activeButtons();
+
 });
